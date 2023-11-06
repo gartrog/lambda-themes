@@ -994,10 +994,10 @@ It should stick out from any other faces currently displayed."
      `(outline-2            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.3 :foreground ,lambda-meek))))
      `(outline-3            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.2 :foreground ,lambda-fg))))
      `(outline-4            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.1 :foreground ,lambda-meek))))
-     `(outline-5            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.1 :foreground ,lambda-fg))))
-     `(outline-6            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.1 :foreground ,lambda-meek))))
-     `(outline-7            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.1 :foreground ,lambda-fg))))
-     `(outline-8            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.1 :foreground ,lambda-meek))))
+     `(outline-5            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.0 :foreground ,lambda-fg))))
+     `(outline-6            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.0 :foreground ,lambda-meek))))
+     `(outline-7            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.0 :foreground ,lambda-fg))))
+     `(outline-8            ((,class (:inherit ,(if lambda-themes-set-variable-pitch 'variable-pitch 'default) :height 1.0 :foreground ,lambda-meek))))
 
 ;;;;;; Markdown-mode
      `(markdown-header-face-1          ((,class (:inherit outline-1))))
